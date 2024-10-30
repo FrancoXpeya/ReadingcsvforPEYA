@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Archivos .CSV</title>
+    <link rel="shortcut icon" href="img/logo_peya.png" type="image/x-icon">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Validador de .csv de catálogo <b><i>individual</i></b></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Seleccioná tu archivo .csv</h1>
+                    <input type="file" id="fileInput" class="file-input">
+                    <button class="button" onclick="validateFile()">Validar Archivo</button>
+                    <div id="errorDisplay" class="error-display"></div><br>
+                    <a href="/bucket/catalogo/index.html" class="button">Volver</a>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <!--========== MAIN JS ==========-->
+    <script src="js/main.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
