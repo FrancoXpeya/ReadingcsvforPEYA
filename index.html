@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo_peya.png" type="image/x-icon">
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>¡Validá tus archivos .CSV! - PedidosYa</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Validador de CSV.</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">¿Cómo funciona?</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Seleccioná</h1>
+                        <h2 class="home__subtitle">el tipo de archivo.</h2>
+                        <a href="bucket/catalogo/index.html" class="button">Catálogo</a>
+                        <a href="bucket/promotions/index.html" class="button">Promociones</a>
+                    </div>
+    
+                    <img src="img/logo_peya.png" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container nuevo" id="services">
+                <span class="section-subtitle nuevo">¿Cómo funciona?</span>
+                <h2 class="section-title nuevo">¡Seguí estos pasos y validá tu archivo!</h2>
+
+                <div class="menu__container bd-grid nuevo">
+                    <div class="menu__content nuevo">
+                        <img src="img/selecciona.png" alt="" class="menu__img">
+                        <h3 class="menu__name__nuevo">Seleccioná</h3>
+                        <span class="menu__detail__nuevo">si es <b>catálogo</b> o un archivo de <b>promoción</b>.</span>
+                    </div>
+
+                    <div class="menu__content nuevo">
+                        <img src="img/carga.png" alt="" class="menu__img">
+                        <h3 class="menu__name__nuevo">Cargá</h3>
+                        <span class="menu__detail__nuevo">o arrastralo desde tu <b>explorador</b> de archivos.</span>
+                    </div>
+                    
+                    <div class="menu__content nuevo">
+                        <img src="img/valida.png" alt="" class="menu__img">
+                        <h3 class="menu__name__nuevo">Validá</h3>
+                        <span class="menu__detail__nuevo">si pasó con éxito o <b>chequeá</b> los errores exhibidos.</span>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container" id="contact">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Validador de CSV.</a>
+                    <span class="footer__description">Developed by PEYA.</span>
+                    <div>
+                        <a href="mailto:soporteintegraciones@pedidosya.com" class="footer__social"><i class='bx bxs-envelope'></i></a>
+                        <a href="https://deliveryhero.enterprise.slack.com/team/U06NCN0NVJL" class="footer__social"><i class='bx bxl-slack'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">¿Cómo funciona?</h3>
+                    <ul>
+                        <li><a href="#services" class="footer__link">Seleccioná</a></li>
+                        <li><a href="#services" class="footer__link">Cargá</a></li>
+                        <li><a href="#services" class="footer__link">Validá</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contacto</h3>
+                    <ul>
+                        <li><a href="mailto:soporteintegraciones@pedidosya.com" class="footer__link">soporteintegraciones@pedidosya.com</a></li>
+                        <li><a href="mailto:franco.silva@pedidosya.com" class="footer__link">franco.silva@pedidosya.com</a></li>
+                        <li><a href="mailto:cecilia.buonomo@pedidosya.com" class="footer__link">cecilia.buonomo@pedidosya.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2024 PEYA | Validador de archivos .csv.</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
